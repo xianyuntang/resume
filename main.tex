@@ -1,9 +1,3 @@
-%-------------------------
-% Resume in Latex
-% Author : Jake Gutierrez
-% Based off of: https://github.com/sb2nov/resume
-% License : MIT
-%------------------------
 
 \documentclass[letterpaper,11pt]{article}
 
@@ -151,13 +145,15 @@
       {Taiwan Medical Imaging Co., Ltd.}{Jan 2022 - Present}
       {Full Stack Engineer}{Taipei, Taiwan}
       \resumeItemListStart
-
+        \resumeItem {Developed dicom viewer}
       \resumeItemListEnd
 
     \resumeSubheading
       {Ingrasys Technology Inc.}{Sep 2020 - Jan 2022}
       {Full Stack Engineer}{New Taipei, Taiwan}
       \resumeItemListStart
+        \resumeItem{
+        Built an issue tracking forum with Flask and Vue.js for reducing the communication time between manufacturing engineer and R&D. }
         \resumeItem{Built the project management system which includes project information, budget, revenue, and manpower costs. The backend is built by Flask and the frontend is built by Vue.js.}
         \resumeItem{Built a file service with Flask, which provides REST API to access data storage.}
         \resumeItem{Built a building tool of REST API based on Flask Framework. It provides a CLI tool to create REST API backend to integrate some commonly used packages and templates. This tool also helps in avoiding issues of rewriting the same codes.}
@@ -169,7 +165,9 @@
       {Taiwan Centers for Disease Control}{Sep 2017 - Aug 2020}
       {Software Engineering Intern}{Taipei, Taiwan}
       \resumeItemListStart
-        \resumeItem{Built the official website of COVID-19 with 200,000+ daily visits for Central Epidemic Command Center (CECC).}
+        \resumeItem{Built the official website of COVID-19 with 200,000+ daily visits for Central Epidemic Command Center (CECC). }
+        \resumeItem{ Developed a body temperature monitor system connected to infrared sensor with Raspberry Pi for COVID-19 pandemic period. }
+        \resumeItem{ Developed Google Assistant application with Flask backend deployed on GCP for providing the information about COVID-19. }
         \resumeItem{Implemented a video optical character recognition system with a deep neural network by TensorFlow, including a user interface developed by Django as backend and React as frontend and model retrain tool built by PyQt. This system automatically detects TV screen snapshots for the selected keyword.}
         \resumeItem{Implemented a poisonous snake classification system by TensorFlow. This system recognizes and classifies six major poisonous snakes in Taiwan.}
         \resumeItem{Deployed and developed a face recognition access control system by TensorFlow, embedded in NVIDIA Jetson TX2.}
@@ -196,7 +194,8 @@
 \section{SKILLS}
  \begin{itemize}[leftmargin=0in, label={}]
     \small{\item{
-     \textbf{Languages} {: JavaScript (Node.js, React.js, Vue.js), Python, HTML/CSS, SQL (PostgreSQL, MySQL, MongoDB)}\vspace{2pt} \\
+     \textbf{Languages} {: Javescript, Python, C#, SQL}\vspace{2pt} \\
+     \textbf{Web Development} {: Javescript( Node.js, React.js, Vue.js) , Python( Flask, Django ) HTML/CSS, SQL (PostgreSQL, MySQL, MongoDB)}\vspace{2pt}
      }
  \end{itemize}
 
